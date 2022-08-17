@@ -6,6 +6,11 @@ From your IDE run the app or at "\src\WebApi" on your shell of your choice type
 ```text
 dotnet run
 ```
+## After running app
+
+| WebPage       | Link          | 
+| ------------- |---------------|
+| API - Swagger | http://localhost:5272/swagger/index.html |
 #### CMD Curl
 ```text 
 curl http://localhost:5272/weatherforecast 
@@ -14,11 +19,6 @@ curl http://localhost:5272/weatherforecast
 ```text 
 curl http://localhost:5272/weatherforecast -UseBasicParsing
 ```
-## After running app
-
-| WebPage       | Link          | 
-| ------------- |---------------|
-| API - Swagger | http://localhost:5272/swagger/index.html |
 ## Technologies
 * .NET 6.0
 * ASP.NET Core 6.0
